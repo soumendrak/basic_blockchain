@@ -29,4 +29,4 @@ def retrieve_blockchain(blockchain=[]):
 
 if __name__ == '__main__':
     blockchain = []
-    main(blockchain)
+    retrieve_blockchain(blockchain)

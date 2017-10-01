@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "BLOCKCHAIN",
+		"_postman_id": "2321335f-f051-b122-9b5a-acf1158ed762",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/txn",
+			"request": {
+				"url": "http://127.0.0.1:5000/txn",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"from\": \"71238uqirbfh894-random-public-key-a-alkjdflakjfewn204ij\",\r\n  \"to\": \"93j4ivnqiopvh43-random-public-key-b-qjrgvnoeirbnferinfo\",\r\n  \"amount\": 3\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/mine",
+			"request": {
+				"url": "http://127.0.0.1:5000/mine",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Mine coin information"
+			},
+			"response": []
+		}
+	]
+}
